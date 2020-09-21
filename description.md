@@ -91,3 +91,10 @@ This allows us to continue calling `func` without blowing up the call stack.
 #### PTC or Proper Tail Calls
  
 #### TCO or Tail Calls Optimizations
+
+# Monkey patching
+Monkey Patching is a technique to override, extend or even suppress the default behavior of a code segment without changing its original source code.
+ This is done by replacing the original behavior with a fixed version.
+
+One of the key concepts of MP is to take an existing function and augment it with custom behavior before or after the call to the original code.
+But calling the original implementation is not always necessary as sometimes you just want to replace it with your custom actions
